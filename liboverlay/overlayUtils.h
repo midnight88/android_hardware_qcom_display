@@ -528,7 +528,6 @@ inline bool isYuv(uint32_t format) {
     switch(format){
         case MDP_Y_CBCR_H2V1:
         case MDP_Y_CBCR_H2V2:
-        case MDP_Y_CRCB_H2V2:
         case MDP_Y_CRCB_H2V2_TILE:
             return true;
         default:
